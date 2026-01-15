@@ -1,4 +1,8 @@
-const divide = (num1 ,num2) =>(2000/100)
-const add =(num3,num4) =>(3+4)
-const square =(num5,num6) =>(2**2)
+let divide = function(number){
+    return number/100
+}
+divide(2000)
 
+let square= digit=> digit*2;
+
+let add = (a,b)=>a+b
